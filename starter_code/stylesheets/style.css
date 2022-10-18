@@ -8,3 +8,57 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+  background-color: #540b51;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: white;
+}
+
+#laranja {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp {
+  margin: 10px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+#logoGoogle {
+  width: 15%;
+  height: 15%;
+}
+.esquerda {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: right; */
+  position: relative;
+  left: 1200px;
+  top: 2px;
+}
+
+.fundoMarfim {
+  background-color: #f3eae2;
+}
